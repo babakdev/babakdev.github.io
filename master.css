@@ -146,6 +146,7 @@ ul li {
 ul li:nth-child(1) {
   animation: fade 1.5s ease-out 0.1s;
   letter-spacing: 0.125vw;
+  font-size: 1.3vw;
 }
 ul li:nth-child(1):after {
   content: "";
@@ -286,6 +287,7 @@ ul li:not(:first-child) a:hover, ul li:not(:first-child) a:focus {
     width: 100%;
     justify-content: flex-end;
     transform: translateX(0.5vw);
+    font-size: 2vw;
   }
   ul li:first-child:after {
     display: none;
